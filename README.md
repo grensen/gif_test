@@ -7,23 +7,9 @@
 
 ---
 
-## Add your sample
-<p align="center">
-<img width="224" height="224" src="https://github.com/grensen/gif_test/blob/master/add_sample2.gif"/>
-</p>
-
----
-
 ## Train your Neural Network
 <p align="center">
 <img width="640" height="400" src="https://github.com/grensen/gif_test/blob/master/train_neural_network2.gif"/>
-</p>
-
----
-
-## Train your Neural Network with your Selected Target
-<p align="center">
-<img width="200" height="460" src="https://github.com/grensen/gif_test/blob/master/target%20selection.gif"/>
 </p>
 
 ---
@@ -45,6 +31,20 @@
 ## Or let it Grow!
 <p align="center">
 <img width="640" height="400" src="https://github.com/grensen/gif_test/blob/master/neural_network_growing.gif"/>
+</p>
+
+---
+
+## Add your sample
+<p align="center">
+<img width="224" height="224" src="https://github.com/grensen/gif_test/blob/master/add_sample2.gif"/>
+</p>
+
+---
+
+## Train your Neural Network with your Selected Target
+<p align="center">
+<img width="200" height="460" src="https://github.com/grensen/gif_test/blob/master/target%20selection.gif"/>
 </p>
 
 ---
