@@ -23,7 +23,7 @@
 
 ## Train your Neural Network with your Selected Target
 <p align="center">
-<img width="230" height="560" src="https://github.com/grensen/gif_test/blob/master/target%20selection.gif"/>
+<img width="200" height="460" src="https://github.com/grensen/gif_test/blob/master/target%20selection.gif"/>
 </p>
 
 ---
