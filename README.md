@@ -1,6 +1,6 @@
 # goodgame|one Preview
 
-## Examine the hole MNIST Data
+## Examine the complete MNIST Data
 <p align="center">
 <img width="252" height="252" src="https://github.com/grensen/gif_test/blob/master/examine_mnist.gif"/>
 </p>
@@ -22,7 +22,9 @@
 ---
 
 ## Train your Neural Network with your Selected Target
-![](https://github.com/grensen/gif_test/blob/master/target%20selection.gif)
+<p align="center">
+<img width="230" height="560" src="https://github.com/grensen/gif_test/blob/master/target%20selection.gif"/>
+</p>
 
 ---
 
