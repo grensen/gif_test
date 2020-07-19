@@ -14,11 +14,11 @@
 <p align="center">
 <img width="640" height="400" src="https://github.com/grensen/gif_test/blob/master/train_neural_network2.gif"/>
 </p>
-´´´
+
 ## Train your Neural Network with your Selected Target
 ![](https://github.com/grensen/gif_test/blob/master/target%20selection.gif)
 
-´´´
+
 ## See the Patterns
 <p align="center">
 <img width="640" height="400" src="https://github.com/grensen/gif_test/blob/master/see_the_pattern3.gif"/>
