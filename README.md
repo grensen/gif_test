@@ -2,7 +2,9 @@
 
 ## Examine the hole MNIST Data
 ![](https://github.com/grensen/gif_test/blob/master/examine_mnist.gif)
-
+<p align="center">
+<img src="https://github.com/grensen/gif_test/blob/master/examine_mnist.gif"/>
+</p>
 
 ## Add your sample
 ![](https://github.com/grensen/gif_test/blob/master/add_sample2.gif)
