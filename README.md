@@ -2,12 +2,12 @@
 
 ## Examine the hole MNIST Data
 <p align="center">
-<img src="https://github.com/grensen/gif_test/blob/master/examine_mnist.gif"/>
+<img width="" height="" src="https://github.com/grensen/gif_test/blob/master/examine_mnist.gif"/>
 </p>
 
 ## Add your sample
 <p align="center">
-<img src="https://github.com/grensen/gif_test/blob/master/add_sample2.gif"/>
+<img width="" height="" src="https://github.com/grensen/gif_test/blob/master/add_sample2.gif"/>
 </p>
 
 ## Train your Neural Network
@@ -29,5 +29,5 @@
 
 ## Push your Rosenblatt to the Limits with the Control
 <p align="center">
-<img src="https://github.com/grensen/gif_test/blob/master/full_control.gif"/>
+<img width="" height=""src="https://github.com/grensen/gif_test/blob/master/full_control.gif"/>
 </p>
