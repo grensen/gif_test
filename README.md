@@ -1,4 +1,4 @@
-# gif_test
+# goodgame|one Preview
 
 ## Examine the hole MNIST Data
 ![](https://github.com/grensen/gif_test/blob/master/examine_mnist.gif)
