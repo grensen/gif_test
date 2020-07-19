@@ -29,5 +29,5 @@
 
 ## Push your Rosenblatt to the Limits with the Control
 <p align="center">
-<img width="" height=""src="https://github.com/grensen/gif_test/blob/master/full_control.gif"/>
+<img width="234" height="702"src="https://github.com/grensen/gif_test/blob/master/full_control.gif"/>
 </p>
