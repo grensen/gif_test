@@ -2,12 +2,12 @@
 
 ## Examine the hole MNIST Data
 <p align="center">
-<img width="" height="" src="https://github.com/grensen/gif_test/blob/master/examine_mnist.gif"/>
+<img width="252" height="252" src="https://github.com/grensen/gif_test/blob/master/examine_mnist.gif"/>
 </p>
 
 ## Add your sample
 <p align="center">
-<img width="" height="" src="https://github.com/grensen/gif_test/blob/master/add_sample2.gif"/>
+<img width="224" height="224" src="https://github.com/grensen/gif_test/blob/master/add_sample2.gif"/>
 </p>
 
 ## Train your Neural Network
