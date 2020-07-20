@@ -1,4 +1,4 @@
-# goodgame|one Preview
+# goodgame|one sneak peek
 
 ## Examine the complete MNIST Data
 <p align="center">
