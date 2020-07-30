@@ -49,6 +49,20 @@
 
 ---
 
+## Try Logistic Regression
+<p align="center">
+<img width="640" height="400" src="https://github.com/grensen/gif_test/blob/master/logistic_regression.gif"/>
+</p>
+
+---
+
+
+## Go deeper
+<p align="center">
+<img width="640" height="400" src="https://github.com/grensen/gif_test/blob/master/create_deeper_neural_nets.gif"/>
+</p>
+
+---
 ## Push your Rosenblatt to the Limits with the Control
 <p align="center">
 <img width="234" height="702"src="https://github.com/grensen/gif_test/blob/master/full_control.gif"/>
