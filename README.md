@@ -61,6 +61,8 @@
 <img width="960" height="600" src="https://github.com/grensen/gif_test/blob/master/create_deeper_neural_nets.gif"/>
 </p>
 
+<img src="https://github.com/grensen/gif_test/blob/master/create_deeper_neural_nets.gif">
+
 ---
 ## Push your Rosenblatt to the Limits with the Control
 <p align="center">
