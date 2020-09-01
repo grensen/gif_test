@@ -51,9 +51,8 @@
 
 ## Try Logistic Regression
 <p align="center">
-<img width="640" height="300" src="https://github.com/grensen/gif_test/blob/master/logistic_regression.gif"/>
+<img src="https://github.com/grensen/gif_test/blob/master/logistic_regression.gif" style="display: block; margin: auto;" />
 </p>
-
 ---
 
 
