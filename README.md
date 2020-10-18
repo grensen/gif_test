@@ -17,7 +17,7 @@ Let's create a sample and train it:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_create_inputs_and_train.gif?raw=true)
 
 
-Before we go further let's checkout what goodgame can show, the input neurons are red rectangles on the left and express the MNIST samples.
+Before we go further let's checkout what goodgame can show, the input neurons are red rectangles on the left and express the samples.
 Every input neuron is fully connected with a weight to every output neuron on the next layer.
 The weights in green chartreuse show positive values and the reds show negative values.
 The highest or lowest color depends on the highest or lowest weight here and all other weights show colors between.
@@ -57,7 +57,7 @@ Another example of the functionality:
 
  1. Download the folder MNIST_Data for the unzipped data set and the Neural_Network_Backup with the empty file.
  2. Then create the directory c:/goodgame/one/ and put both folders inside.
- 3. Now goodgame is ready to run on Visual Studio.
+ 3. Now goodgame is ready to run on Visual Studio with the goodgame.cs code.
  
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_install.gif?raw=true)
 
