@@ -9,8 +9,7 @@ Let me give a first example:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_hello_goodgame.gif?raw=true)
 
 
-
-If you watched the neural network series from ![3blue1brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi), you know the 784-16-16-10 neural network already.
+If you watched the neural network series from [3blue1brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi), you know the 784-16-16-10 neural network already.
 That's important because the starting point with goodgame is that network with the default hyperparameters.
 After a first MNIST training over 60000 samples the resulting test accuracy brings 93.29%, that is pretty good the best I know.
 
