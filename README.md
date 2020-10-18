@@ -49,7 +49,10 @@ Another example of the functionality:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_compare_train.gif?raw=true)
 
 ~~To install goodgame, download the files and put them into the c:/goodgame/one/ directory and start the game.~~
+
+
 Good game is easy to install with visual studio. 
+
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_install.gif?raw=true)
 
 
