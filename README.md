@@ -35,9 +35,10 @@ Here we can get a good feeling how the weights works, the highest neuron color r
 The output neurons with softmax activation shown on the right side use 100 pixels from left to right 0-100% to express the prediction accuracy.
 If the prediction was the target the neuron becomes green and the class gold.
 
+---
 We can also spot what's going wrong:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_spot_wrong.gif?raw=true)
-
+---
 
 Despite goodgame is kept really low with basic ideas and not a special neural network, the functionality can come really complex.
 I was looking for a way to make it intuitiv to play. So with a left click you can put something in, with a right click you can take something out.
@@ -66,9 +67,14 @@ Another example of the functionality:
  1. Download the folder MNIST_Data for the unzipped data set and the Neural_Network_Backup with the empty file.
  2. Then create the directory c:/goodgame/one/ and put both folders inside.
  3. Now goodgame is ready to run on Visual Studio with the goodgame.cs code.
+ 4. To collapse all the 1400 lines press CTRL + M + O
  
- ---
-![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_install.gif?raw=true)
+---
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_install_code.gif?raw=true)
 ---
 
+Build your realese of your goodgamme app.
+---
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_build_releasel.gif?raw=true)
+---
 
