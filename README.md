@@ -73,8 +73,10 @@ Another example of the functionality:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_install_code.gif?raw=true)
 ---
 
-Build your realese of your goodgamme app.
+
+
 ---
+Build a realese of your goodgame app.
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_build_releasel.gif?raw=true)
 ---
 
