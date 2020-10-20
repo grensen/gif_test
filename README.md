@@ -76,7 +76,7 @@ Another example of the functionality:
 
 
 ---
-Build a realese of your goodgame app.
+Build a release version of your goodgame app.
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_build_releasel.gif?raw=true)
 ---
 
