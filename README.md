@@ -62,8 +62,9 @@ Another example of the functionality:
 
 ### How to install
 
-~~To install goodgame, download the files and put them into the c:/goodgame/one/ directory and start the game.~~
+[Download](https://drive.google.com/file/d/1lrxwYX9VRERWT3foPrciib1N4U38JiHK/view) and extract the directory to the c: folder.
 
+Alternative:
  1. Download the folder MNIST_Data for the unzipped data set and the Neural_Network_Backup with the empty file.
  2. Then create the directory c:/goodgame/one/ and put both folders inside.
  3. Now goodgame is ready to run on Visual Studio with the goodgame.cs code.
