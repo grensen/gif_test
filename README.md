@@ -62,7 +62,7 @@ Another example of the functionality:
 
 ### How to install
 
-[Download](https://drive.google.com/file/d/1lrxwYX9VRERWT3foPrciib1N4U38JiHK/view) and extract the directory to the c: folder.
+[Download](https://github.com/grensen/gif_test/edit/master/README.md) and extract the directory to the c: folder.
 
 Alternative:
  1. Download the folder MNIST_Data for the unzipped data set and the Neural_Network_Backup with the empty file.
