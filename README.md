@@ -13,8 +13,7 @@ Let me give a first example:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_hello_goodgame.gif?raw=true)
 ---
 
-If you watched the neural network series from [3blue1brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi), you know the 784-16-16-10 neural network already.
-That's important because the starting point with goodgame is this network with the default hyperparameters.
+If you watched the neural network series from [3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi), you know the 784-16-16-10 neural network already. That's important because the starting point with goodgame is this network with the default hyperparameters.
 After a first MNIST training over 60000 samples the resulting test accuracy brings 93.29%, that is pretty good the best I know.
 
 ---
@@ -57,6 +56,65 @@ Another example of the functionality:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_compare_train.gif?raw=true)
 ---
 
+---
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_quantum_leaps.gif?raw=true)
+
+*How the prediction moves from one class to the next has been one of the most interesting things to me. Further transformations, from '8' to '6' and from '6' to '5' can provide even more insights about the classes and their relationship.*
+
+---
+
+---
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_dnn_basics_demo.gif?raw=true)
+*The Class Accuracy on the left shows the prediction of each class, logistic regression needs 7840 weights for the predictions. The question was, how many hidden neurons needs gg to outperform this, one? The demo shows a test till a 784-7-10 network, where it seems the hidden neurons can outperform logistic regression. The experiments can go further, but the 784-3-10 network suprised me most.*
+
+---
+
+---
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_incorrect_custom_training.gif?raw=true)
+*It is time for popcorn, take your seat and manipulate the predictions, train with your intuition within the training.
+
+---
+
+---
+![alt text](https://github.com/grensen/gif_test/blob/master/Figures/gg_one_20_layers.gif?raw=true)
+*How many layers can we train? This is a deep neural network with 20 layers. It was really hard to train, but the pattern of the neurons looks pretty cool.*
+
+---
+
+---
+![alt text](https://github.com/grensen/gif_test/blob/master/Figures/gg_one_low_vs_high_lr.gif?raw=true)
+*The learning rate affects the training. In case of the ReLU activation, the learning rate affects also the activation level of the neurons, lower lr's keep the activation level high, and high lr's keep the activations low, till a whole layer is disconnectet. The example shows a briefly look into the test low = 0.001 vs high = 0.01 after 200.000 backpropagations, even with this moderate settings is this effect easy to see.*
+
+---
+
+---
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_support_class.gif?raw=true)
+*How to increase the weakest class prediction. If the step was wrong, take the last training step and try again. It looks not so good for the others classes after this move, but with a lot of sensitive it's possible to support your network with specific training.*
+
+---
+
+
+---
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_smaller_classification.gif?raw=true)
+*How would the the neural network perform with only three classes to predict? Experiments like this are not very useful, on the other they could bring new perspectives.
+I didn't expect this test accuracy after only one training, neat.*
+
+---
+
+---
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_new_network_inside.gif?raw=true)
+*With more neurons you reach more accuracy, that's right, almost. Neurons can be added or removed all the time with gg. Here the starting point was used to create a new network inside the existing one. After enough rounds the merged networks should be act as one, sometimes not so clever. It seems more useful to use the final size from start, but not always.*
+
+---
+
+---
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_gg_outro.gif?raw=true)
+*Finally, it is possible to add new knowledge which differs from the trained data. gg*
+
+---
+
+
+
 
 
 
@@ -64,7 +122,7 @@ Another example of the functionality:
 
 [Download](https://drive.google.com/file/d/12s7E-2-GqgkYY6ZNw0jgKvGTeVDZbXqB/view) and extract the directory to the c: folder.
 
-Alternative:
+Or:
  1. Download the folder MNIST_Data for the unzipped data set and the Neural_Network_Backup with the empty file.
  2. Then create the directory c:/goodgame/one/ and put both folders inside.
  3. Now goodgame is ready to run on Visual Studio with the goodgame.cs code.
@@ -75,6 +133,11 @@ Alternative:
 ---
 
 
+Core functions:
+
+---
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/core_functions.png?raw=true)
+---
 
 ---
 Build a release version of your goodgame app.
