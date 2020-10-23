@@ -65,8 +65,6 @@ So you can do really strange things and compare the networks with specific examp
 
 </details>
 
----
-
 <details>
 <summary>The quantum leaps of neural networksy:</summary>
  
@@ -77,8 +75,6 @@ So you can do really strange things and compare the networks with specific examp
 The quantum leaps of neural networks or just the change in classification of the nearby input increases the understand of neural networks a lot. Especially the intuition how the prediction was made and how we would evaluate this as a human.
 
 </details>
- 
----
 
 <details>
 <summary>What can one hidden neuron predict:</summary>
@@ -91,8 +87,6 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 </details>
 
----
-
 <details>
 <summary>Train inside the training:</summary>
  
@@ -100,8 +94,6 @@ Logistic regression is like a neural network with one layer, the parameters to c
 *It is time for popcorn, take your seat and manipulate the predictions, train with your intuition within the training.
 
 </details>
-
----
 
 <details>
 <summary>Maximize the layer size:</summary>
@@ -111,8 +103,6 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 </details>
 
----
-
 <details>
 <summary>The effect of the learning rate:</summary>
  
@@ -120,8 +110,6 @@ Logistic regression is like a neural network with one layer, the parameters to c
 *The learning rate affects the training. In case of the ReLU activation, the learning rate affects also the activation level of the neurons, lower lr's keep the activation level high, and high lr's keep the activations low, till a whole layer is disconnected. The example shows a briefly look into the test low = 0.001 vs high = 0.01 after 200.000 backpropagations, even with this moderate settings is this effect easy to see.*
 
 </details>
-
----
 
 <details>
 <summary>Push the weakest class in your training:</summary>
@@ -131,8 +119,6 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 </details>
 
----
-
 <details>
 <summary>Change the conditions:</summary>
  
@@ -141,8 +127,6 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 </details>
 
----
-
 <details>
 <summary>Add a bunch of neurons:</summary>
 
@@ -150,8 +134,6 @@ Logistic regression is like a neural network with one layer, the parameters to c
 *With more neurons you reach more accuracy, that's right, almost. Neurons can be added or removed all the time with gg. Here the starting point was used to create a new network inside the existing one. After enough rounds the merged networks should be act as one, sometimes not so clever. It seems more useful to use the final size from start, but not always.*
 
 </details>
-
----
 
 <details>
 <summary>Change the game:</summary>
