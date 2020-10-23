@@ -79,7 +79,7 @@ The quantum leaps of neural networks or just the change in classification of the
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_dnn_basics_demo.gif?raw=true)
 *The Class Accuracy on the left shows the prediction of each class. The question was, how many hidden neurons are needed to handle the data? The demo shows a test till a 784-7-10 network. The experiments can go further, but the 784-3-10 network suprised me most, but 784-4-10 network can handle all data in my opinion*
 
-Logistic regression is like a neural network with one layer, the parameters to compute are here 784 * 10 = 7840 + 10 for the bias = 7850. A nerual network with one layer like the 784-7-10 computes 784 * 7 + 7 * 10 = 5558 parameters without a bias in the case of gg and can outperform logistic regression. Efficency is a core of gg, with one more layer, 784-7-100-10 the network would compute 6188 parameters, but how would we rate a 784-6-50-10 network with 5504 parameters? A very important aspect if we think about how we should build our networks, but also for the prediction quality.
+Logistic regression is like a neural network with one layer, the parameters to compute are here 784 * 10 = 7840 + 10 for the bias = 7850. A neural network with one layer like the 784-7-10 computes 784 * 7 + 7 * 10 = 5558 parameters without a bias in the case of gg and can outperform logistic regression. Efficency is a core of gg, with one more layer, 784-7-100-10 network would compute 6188 parameters, but how would we rate a 784-6-50-10 network with 5504 parameters? A very important aspect if we think about how we should build our networks for more efficiency, but also for the prediction quality.
 
 <details>
 <summary>Train inside the training:</summary>
@@ -104,7 +104,7 @@ Logistic regression is like a neural network with one layer, the parameters to c
 *The learning rate affects the training. In case of the ReLU activation, the learning rate affects also the activation level of the neurons, lower lr's keep the activation level high, and high lr's keep the activations low, till a whole layer is disconnected. The example shows a briefly look into the test low = 0.001 vs high = 0.01 after 200.000 backpropagations, even with this moderate settings is this effect easy to see.*
 
 </details>
----
+
 <details>
 <summary>Push the weakest class in your training:</summary>
  
@@ -113,10 +113,13 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 </details>
 
-
+<details>
+<summary>Change the conditions:</summary>
+ 
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_smaller_classification.gif?raw=true)
 *How would the the neural network perform with only three classes to predict? Experiments like this are not very useful, on the other they could bring new perspectives. I didn't expect this test accuracy after only one training, neat.*
 
+</details>
 
 <details>
 <summary>Add a bunch of neurons:</summary>
@@ -127,10 +130,14 @@ Logistic regression is like a neural network with one layer, the parameters to c
 </details>
 
 ---
+
+<details>
+<summary>Change the game:</summary>
+
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_gg_outro.gif?raw=true)
 *Finally, it is possible to add new data for new classes that differ from the common data. gg*
 
-
+</details>
 
 
 <details>
