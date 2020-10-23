@@ -12,7 +12,6 @@ Let me give a first example of a test:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_hello_goodgame.gif?raw=true)
 *A neural network is initiated with random weight values to create a breaking symmetry.*
 
-
 If you watched the neural network series from [3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi), you know the 784-16-16-10 neural network already. That's important because the starting point with goodgame is this network with the default hyperparameters.
 After a first MNIST training over 60000 samples the resulting test accuracy brings 93.29%, that is pretty good the best I know.
 
@@ -38,7 +37,7 @@ If the prediction was the target the neuron becomes green and the class gold.
 
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_spot_wrong.gif?raw=true)
-*We can also spot what's going wrong. The state slider, correct = 0, incorrect = 1, all = 2. In combination with the other sliders every data is easily accessible. For a precise use the sliders can be changed with the left and right arrow keys on the keyboard. For example, to determine the start of training. 59916 seems a 7, or?*
+*We can also spot what's going wrong. The state slider, correct = 0, incorrect = 1, all = 2. In combination with the other sliders every data is easily accessible. For a precise use. The sliders can be controlled by the left and right arrow keys on the keyboard. For example, to determine the start of training. 59916 seems a 7, or?*
 
 Despite goodgame is kept really low with basic ideas and not a special neural network, the functionality can come really complex.
 I was looking for a way to make it intuitiv to play. So with a left click you can put something in, with a right click you can take something out.
@@ -49,13 +48,13 @@ I was looking for a way to make it intuitiv to play. So with a left click you ca
 
 So we can also create, load and save our neural networks. 
 Additional goodgame saves after a close and loads after a start your neural network automatically.
-So you can do really strange things and compare the networks with specific examples.
+So you can do really strange things and compare the networks with specific examples. 
 
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_compare_train.gif?raw=true)
 *Another example of the functionality.*
 
----
+
 
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_quantum_leaps.gif?raw=true)
@@ -86,7 +85,7 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 ---
 ![alt text](https://github.com/grensen/gif_test/blob/master/Figures/gg_one_low_vs_high_lr.gif?raw=true)
-*The learning rate affects the training. In case of the ReLU activation, the learning rate affects also the activation level of the neurons, lower lr's keep the activation level high, and high lr's keep the activations low, till a whole layer is disconnectet. The example shows a briefly look into the test low = 0.001 vs high = 0.01 after 200.000 backpropagations, even with this moderate settings is this effect easy to see.*
+*The learning rate affects the training. In case of the ReLU activation, the learning rate affects also the activation level of the neurons, lower lr's keep the activation level high, and high lr's keep the activations low, till a whole layer is disconnected. The example shows a briefly look into the test low = 0.001 vs high = 0.01 after 200.000 backpropagations, even with this moderate settings is this effect easy to see.*
 
 ---
 
@@ -119,11 +118,11 @@ Logistic regression is like a neural network with one layer, the parameters to c
 [Download](https://drive.google.com/file/d/12s7E-2-GqgkYY6ZNw0jgKvGTeVDZbXqB/view) and extract the directory to the c: folder.
 
 Or:
- 1. Download the folder MNIST_Data for the unzipped data set and the Neural_Network_Backup with the empty file.
- 2. Then create the directory c:/goodgame/one/ and put both folders inside.
- 3. Now goodgame is ready to run on Visual Studio with the goodgame.cs code.
- 4. To collapse all the 1400 lines press CTRL + M + O
- 
+ 1. Download the folder MNIST_Data for the unzipped data set and the Neural_Network_Backup with the empty file.
+ 2. Then create the directory c:/goodgame/one/ and put both folders inside.
+ 3. Now goodgame is ready to run on Visual Studio with the goodgame.cs code.
+ 4. To collapse all the 1400 lines press CTRL + M + O
+ 
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_install_code.gif?raw=true)
 
@@ -140,4 +139,3 @@ The function handles training and test runs. NeuralNetworkSample() treats the cu
 Build a release version of your goodgame app.
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_build_releasel.gif?raw=true)
 ---
-
