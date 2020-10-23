@@ -112,9 +112,11 @@ Logistic regression is like a neural network with one layer, the parameters to c
 *How to increase the weakest class prediction. If the step was wrong, take the last training step and try again. It looks not so good for the others classes after this move, but with a lot of sensitive it's possible to support your network with specific training.*
 
 </details>
----
+
+
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_smaller_classification.gif?raw=true)
 *How would the the neural network perform with only three classes to predict? Experiments like this are not very useful, on the other they could bring new perspectives. I didn't expect this test accuracy after only one training, neat.*
+
 
 <details>
 <summary>Add a bunch of neurons:</summary>
