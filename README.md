@@ -61,25 +61,37 @@ So you can do really strange things and compare the networks with specific examp
 <details>
 <summary>Another example of the functionality:</summary>
  
- ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_compare_train.gif?raw=true)
- 
+ ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_compare_train.gif?raw=true) 
+
 </details>
 
-
 ---
+
+<details>
+<summary>The quantum leaps of neural networksy:</summary>
+ 
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_quantum_leaps.gif?raw=true)
 
 *How the prediction moves from one class to the next has been one of the most interesting things to me. Further transformations, from '8' to '6' and from '6' to '5' can provide even more insights about the classes and their relationship.*
 
+The quantum leaps of neural networks or just the change in classification of the nearby input increases the understand of neural networks a lot. Especially the intuition how the prediction was made and how we would evaluate this as a human.
+
+</details>
+ 
 ---
 
-The quantum leaps of neural networks or just the change in classification of the nearby input increases the understand of neural networks a lot. Especially the intuition how the prediction was made and how we would evaluate this as a human. 
+<details>
+<summary>What can one hidden neuron predict:</summary>
+ 
 
----
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_dnn_basics_demo.gif?raw=true)
 *The Class Accuracy on the left shows the prediction of each class. The question was, how many hidden neurons are needed to handle the data? The demo shows a test till a 784-7-10 network. The experiments can go further, but the 784-3-10 network suprised me most, but 784-4-10 network can handle all data in my opinion*
 
 Logistic regression is like a neural network with one layer, the parameters to compute are here 784 * 10 = 7840 + 10 for the bias = 7850. A neural network with one layer like the 784-7-10 computes 784 * 7 + 7 * 10 = 5558 parameters without a bias in the case of gg and can outperform logistic regression. Efficency is a core of gg, with one more layer, 784-7-100-10 network would compute 6188 parameters, but how would we rate a 784-6-50-10 network with 5504 parameters? A very important aspect if we think about how we should build our networks for more efficiency, but also for the prediction quality.
+
+</details>
+
+---
 
 <details>
 <summary>Train inside the training:</summary>
@@ -89,6 +101,8 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 </details>
 
+---
+
 <details>
 <summary>Maximize the layer size:</summary>
  
@@ -96,6 +110,8 @@ Logistic regression is like a neural network with one layer, the parameters to c
 *How many layers can we train? This is a deep neural network with 20 layers. It was really hard to train, but the pattern of the neurons looks pretty cool.*
 
 </details>
+
+---
 
 <details>
 <summary>The effect of the learning rate:</summary>
@@ -105,6 +121,8 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 </details>
 
+---
+
 <details>
 <summary>Push the weakest class in your training:</summary>
  
@@ -113,6 +131,8 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 </details>
 
+---
+
 <details>
 <summary>Change the conditions:</summary>
  
@@ -120,6 +140,8 @@ Logistic regression is like a neural network with one layer, the parameters to c
 *How would the the neural network perform with only three classes to predict? Experiments like this are not very useful, on the other they could bring new perspectives. I didn't expect this test accuracy after only one training, neat.*
 
 </details>
+
+---
 
 <details>
 <summary>Add a bunch of neurons:</summary>
@@ -139,6 +161,7 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 </details>
 
+---
 
 <details>
 <summary>How to install:</summary>
