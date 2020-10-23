@@ -117,12 +117,14 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 [Download](https://drive.google.com/file/d/12s7E-2-GqgkYY6ZNw0jgKvGTeVDZbXqB/view) and extract the directory to the c: folder.
 
+
 Or:
  1. Download the folder MNIST_Data for the unzipped data set and the Neural_Network_Backup with the empty file.
  2. Then create the directory c:/goodgame/one/ and put both folders inside.
  3. Now goodgame is ready to run on Visual Studio with the goodgame.cs code.
  4. To collapse all the 1400 lines press CTRL + M + O
  
+ 
  
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_install_code.gif?raw=true)
