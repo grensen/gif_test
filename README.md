@@ -138,6 +138,7 @@ Core functions:
 
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/core_functions.png?raw=true)
+
 *The code is realy complicated in many parts, a good way to get the connection is start with the NeuralNetworkRun() function. 
 The function handles training and test runs. NeuralNetworkSample() treats the custom training.*
 
