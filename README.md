@@ -15,12 +15,14 @@ Let me give a first example of a test:
 If you watched the neural network series from [3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi), you know the 784-16-16-10 neural network already. That's important because the starting point with goodgame is this network with the default hyperparameters.
 After a first MNIST training over 60000 samples the resulting test accuracy brings 93.29%, that is pretty good the best I know.
 
----
-Let's create a sample and train it:
+<details>
+<summary>Let's create a sample and train it:</summary>
+
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_create_inputs_and_train.gif?raw=true)
 *Note: 784-16-16-10 + one training = 93.29% for the test. 
 The weights work with a fixed seed, so the results cannot change, even if the initialization was randomly, what we need. But if one neuron is added or removed, the whole random values will change, that makes it hard to get confidence. A good way to see this is to beat the test accuracy with a bigger network.*
 
+</details>
 
 Before we go further let's checkout what goodgame can show, the input neurons are red rectangles on the left and express the samples.
 Every input neuron is fully connected with a weight to every output neuron on the next layer.
@@ -43,17 +45,25 @@ Despite goodgame is kept really low with basic ideas and not a special neural ne
 I was looking for a way to make it intuitiv to play. So with a left click you can put something in, with a right click you can take something out.
 
 ---
+<details>
+<summary>We can test the networks with our own samples:</summary>
+
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_user_samples.gif?raw=true)
-*We can test the networks with our own samples.*
+
+</details>
 
 So we can also create, load and save our neural networks. 
 Additional goodgame saves after a close and loads after a start your neural network automatically.
 So you can do really strange things and compare the networks with specific examples. 
 
 ---
-![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_compare_train.gif?raw=true)
-*Another example of the functionality.*
 
+<details>
+<summary>Another example of the functionality:</summary>
+ 
+ ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_compare_train.gif?raw=true)
+ 
+</details>
 
 
 ---
@@ -71,38 +81,48 @@ The quantum leaps of neural networks or just the change in classification of the
 
 Logistic regression is like a neural network with one layer, the parameters to compute are here 784 * 10 = 7840 + 10 for the bias = 7850. A nerual network with one layer like the 784-7-10 computes 784 * 7 + 7 * 10 = 5558 parameters without a bias in the case of gg and can outperform logistic regression. Efficency is a core of gg, with one more layer, 784-7-100-10 the network would compute 6188 parameters, but how would we rate a 784-6-50-10 network with 5504 parameters? A very important aspect if we think about how we should build our networks, but also for the prediction quality.
 
-
----
+<details>
+<summary>Train inside the training:</summary>
+ 
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_incorrect_custom_training.gif?raw=true)
 *It is time for popcorn, take your seat and manipulate the predictions, train with your intuition within the training.
 
+</details>
 
----
+<details>
+<summary>Maximize the layer size:</summary>
+ 
 ![alt text](https://github.com/grensen/gif_test/blob/master/Figures/gg_one_20_layers.gif?raw=true)
 *How many layers can we train? This is a deep neural network with 20 layers. It was really hard to train, but the pattern of the neurons looks pretty cool.*
 
----
+</details>
 
----
+<details>
+<summary>The effect of the learning rate:</summary>
+ 
 ![alt text](https://github.com/grensen/gif_test/blob/master/Figures/gg_one_low_vs_high_lr.gif?raw=true)
 *The learning rate affects the training. In case of the ReLU activation, the learning rate affects also the activation level of the neurons, lower lr's keep the activation level high, and high lr's keep the activations low, till a whole layer is disconnected. The example shows a briefly look into the test low = 0.001 vs high = 0.01 after 200.000 backpropagations, even with this moderate settings is this effect easy to see.*
 
+</details>
 ---
-
----
+<details>
+<summary>Push the weakest class in your training:</summary>
+ 
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_support_class.gif?raw=true)
 *How to increase the weakest class prediction. If the step was wrong, take the last training step and try again. It looks not so good for the others classes after this move, but with a lot of sensitive it's possible to support your network with specific training.*
 
-
+</details>
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_smaller_classification.gif?raw=true)
 *How would the the neural network perform with only three classes to predict? Experiments like this are not very useful, on the other they could bring new perspectives. I didn't expect this test accuracy after only one training, neat.*
 
+<details>
+<summary>Add a bunch of neurons:</summary>
 
----
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_new_network_inside.gif?raw=true)
 *With more neurons you reach more accuracy, that's right, almost. Neurons can be added or removed all the time with gg. Here the starting point was used to create a new network inside the existing one. After enough rounds the merged networks should be act as one, sometimes not so clever. It seems more useful to use the final size from start, but not always.*
 
+</details>
 
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_gg_outro.gif?raw=true)
@@ -111,7 +131,8 @@ Logistic regression is like a neural network with one layer, the parameters to c
 
 
 
-
+<details>
+<summary>How to install:</summary>
 
 ### How to install
 
@@ -130,7 +151,7 @@ Or:
  
  
  
----
+
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_install_code.gif?raw=true)
 
 
@@ -148,3 +169,4 @@ The function handles training and test runs. NeuralNetworkSample() treats the cu
 Build a release version of your goodgame app.
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_build_releasel.gif?raw=true)
 ---
+</details>
