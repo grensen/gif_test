@@ -123,6 +123,7 @@ Or:
  3. Now goodgame is ready to run on Visual Studio with the goodgame.cs code.
  4. To collapse all the 1400 lines press CTRL + M + O
  
+ 
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_install_code.gif?raw=true)
 
