@@ -4,6 +4,8 @@
 
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_hello_goodgame.gif?raw=true)
 
+---
+
 <details>
 <summary>Learn more:</summary>
  
@@ -20,10 +22,11 @@ The rules are simple, every training sample and every custom sample is trainable
 ---
 Let me give a first example of a test:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_hello_goodgame.gif?raw=true)
-*A neural network is initiated with continuous random weight values to create a breaking symmetry.*
+*After a training of the 60.0000 samples of the MNIST trainind data set, the test accuracy with the standard neural network is 93.29%. A neural network is initiated with continuous random weight values to create a breaking symmetry, gg used the Glorot initialization to reach this.*
 
-If you watched the neural network series from [3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi), you know the 784-16-16-10 neural network already. That's important because the starting point with goodgame is this network with the default hyperparameters.
-After a first MNIST training over 60000 samples the resulting test accuracy brings 93.29%, that is pretty good the best I know.
+---
+
+If you watched the neural network series from [3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi), you know the 784-16-16-10 neural network already. That's important because the starting point with goodgame is this network with the default hyperparameters. 
 
 <details>
 <summary>Let's create a sample and train it:</summary>
@@ -41,7 +44,7 @@ The highest or lowest color depends on the highest or lowest weight here and all
 Note, the values are the colors in a good, but not an exact way. 
 If the highest weight value will be 1.01 on this layer, the range can be really big and values with 0.07 and 0.04 can show the same color.
 
-The neurons show their connections only if they are ReLU activated, if the value was below 0 the neuron is set to 0.
+The neurons show their connections only when they are ReLU activated, if the value was below 0 the neuron is set to 0.
 Here we can get a good feeling how the weights works, the highest neuron color represents also the highest neuron value that is figured on the neuron.
 
 The output neurons with softmax activation shown on the right side use 100 pixels from left to right 0-100% to express the prediction accuracy.
@@ -51,10 +54,11 @@ If the prediction was the target the neuron becomes green and the class gold.
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_spot_wrong.gif?raw=true)
 *We can also spot what's going wrong. The state slider, correct = 0, incorrect = 1, all = 2. In combination with the other sliders every data is easily accessible. For a precise use. The sliders can be controlled by the left and right arrow keys on the keyboard. For example, to determine the start of training. 59916 seems a 7, or?*
 
+---
+
 Despite goodgame is kept really low with basic ideas and not a special neural network, the functionality can come really complex.
 I was looking for a way to make it intuitiv to play. So with a left click you can put something in, with a right click you can take something out.
 
----
 <details>
 <summary>We can test the networks with our own samples:</summary>
 
@@ -152,6 +156,11 @@ Logistic regression is like a neural network with one layer, the parameters to c
 *Finally, it is possible to add new data for new classes that differ from the common data. gg*
 
 </details>
+
+
+---
+
+
 </details>
 
 
@@ -173,7 +182,6 @@ Or:
  
  4. To collapse all the 1400 lines press CTRL + M + O.
  
- 
  
 
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_install_code.gif?raw=true)
