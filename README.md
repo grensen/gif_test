@@ -1,16 +1,26 @@
-# goodgame|one Test Release
+# goodgame|one 2020 Test Release
 ## Play Neural Networks to the End
 
-goodgame or shorter gg is a huge trade-off to express neural networks and work with them in a new way.
+
+![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_hello_goodgame.gif?raw=true)
+
+<details>
+<summary>Learn more:</summary>
+ 
+ 
+ ### goodgame|one 2000 in Action
+ 
+ goodgame or shorter gg is a huge trade-off to express neural networks and work with them in a new way.
 gg comes from e-sports and was the name of my team years ago, but more important, after a game the teams say gg for a good time, 
 to make the long story short, gg treats neural networks like a good game.
+
 
 The rules are simple, every training sample and every custom sample is trainable. The goal is to reach the highest accuracy for the untrainable test data.
 
 ---
 Let me give a first example of a test:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_hello_goodgame.gif?raw=true)
-*A neural network is initiated with random weight values to create a breaking symmetry.*
+*A neural network is initiated with continuous random weight values to create a breaking symmetry.*
 
 If you watched the neural network series from [3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi), you know the 784-16-16-10 neural network already. That's important because the starting point with goodgame is this network with the default hyperparameters.
 After a first MNIST training over 60000 samples the resulting test accuracy brings 93.29%, that is pretty good the best I know.
@@ -142,8 +152,8 @@ Logistic regression is like a neural network with one layer, the parameters to c
 *Finally, it is possible to add new data for new classes that differ from the common data. gg*
 
 </details>
+</details>
 
----
 
 <details>
 <summary>How to install:</summary>
