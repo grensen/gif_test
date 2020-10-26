@@ -8,7 +8,7 @@
 <summary>Learn more:</summary>
  
  
- ### goodgame|one 2000 in Action
+ ### goodgame|one 2020
  
  goodgame or shorter gg is a huge trade-off to express neural networks and work with them in a new way.
 gg comes from e-sports and was the name of my team years ago, but more important, after a game the teams say gg for a good time, 
@@ -76,7 +76,7 @@ So you can do really strange things and compare the networks with specific examp
 </details>
 
 <details>
-<summary>The quantum leaps of neural networksy:</summary>
+<summary>The quantum leaps of neural networks:</summary>
  
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_quantum_leaps.gif?raw=true)
 
