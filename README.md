@@ -12,17 +12,17 @@
  
  ### goodgame|one 2020
  
- goodgame or shorter gg is a huge trade-off to express neural networks and work with them in a new way.
+goodgame or shorter gg is a huge trade-off to express neural networks and work with them in a new way.
 gg comes from e-sports and was the name of my team years ago, but more important, after a game the teams say gg for a good time, 
 to make the long story short, gg treats neural networks like a good game.
-
 
 The rules are simple, every training sample and every custom sample is trainable. The goal is to reach the highest accuracy for the untrainable test data.
 
 ---
 Let me give a first example of a test:
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_hello_goodgame.gif?raw=true)
-*After a training of the 60.0000 samples of the MNIST trainind data set, the test accuracy with the standard neural network is 93.29%. A neural network is initiated with continuous random weight values to create a breaking symmetry, gg used the Glorot initialization to reach this.*
+*After a training of the 60.0000 samples of the MNIST trainind data set, the test accuracy with the standard neural network is 93.29%. A neural network is initiated with continuous random weight values to create a breaking symmetry, gg used the Glorot initialization to reach this. The neural network describes a unique seed. The weights use the seed to generate continuous random values, which is what a neural network needs. However, if you want to change the starting value, simply add or remove a neuron, then do a reset and restore the desired network. 
+Note: 784-16-16-10 + one training = 93.29% for the test.*
 
 ---
 
@@ -32,8 +32,7 @@ If you watched the neural network series from [3Blue1Brown](https://www.youtube.
 <summary>Let's create a sample and train it:</summary>
 
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_create_inputs_and_train.gif?raw=true)
-*Note: 784-16-16-10 + one training = 93.29% for the test. 
-The weights work with a fixed seed, so the results cannot change, even if the initialization was randomly, what we need. But if one neuron is added or removed, the whole random values will change, that makes it hard to get confidence. A good way to see this is to beat the test accuracy with a bigger network.*
+*The interaction is more than the control panel, here I create my own input and train it on the right.*
 
 </details>
 
@@ -52,7 +51,7 @@ If the prediction was the target the neuron becomes green and the class gold.
 
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_spot_wrong.gif?raw=true)
-*We can also spot what's going wrong. The state slider, correct = 0, incorrect = 1, all = 2. In combination with the other sliders every data is easily accessible. For a precise use. The sliders can be controlled by the left and right arrow keys on the keyboard. For example, to determine the start of training. 59916 seems a 7, or?*
+*We can also spot what's going wrong. The state slider, correct = 0, incorrect = 1, all = 2. In combination with the other sliders every data is easily accessible. The sliders can be controlled by the left and right arrow keys on the keyboard too. For example, to determine the start of training between 60.000 samples. 59916 seems a 7, or?*
 
 ---
 
@@ -63,7 +62,7 @@ I was looking for a way to make it intuitiv to play. So with a left click you ca
 <summary>We can test the networks with our own samples:</summary>
 
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_user_samples.gif?raw=true)
-
+*The Sample Storage can load a sample with a left click, or saves a sample with a right click. If the storage was empty, you would reset the sample with a left click on this storage.*
 </details>
 
 So we can also create, load and save our neural networks. 
@@ -191,14 +190,16 @@ Core functions:
 
 ---
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/core_functions.png?raw=true)
+
 ---
 
-The code is realy complicated in many parts and 1400 lines are a lot of lines, a good way to get the connection is start with the NeuralNetworkRun() function. 
+The code is really complicated in many parts and 1400 lines are a lot of lines, a good way to get the connection is start with the NeuralNetworkRun() function. 
 The function handles training and test runs. NeuralNetworkSample() treats the custom training.
 
 
 ---
 Build a release version of your goodgame app.
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_build_releasel.gif?raw=true)
+
 ---
 </details>
