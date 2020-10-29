@@ -202,4 +202,113 @@ Build a release version of your goodgame app.
 ![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/gg_one_build_releasel.gif?raw=true)
 
 ---
+
+
+
+<details>
+<summary>More about the low level:</summary>
+ 
+### The perceptron concept
+
+For the code understanding, it is essentially to understand this concept. It seems the best way to built neural networks and the easiest way to work with them, but it's a heavy painful step to understand all the details to build a network by yourself. Give me a try to make this easy.
+
+For me A (input) + B (network model) = C (prediction) describes in a way my basic understanding of neural networks. it is abstract, but it helps me to keep things simple.
+If a perceptron is unknown to you, take a look here.  
+
+James D. McCaffrey writes:  
+["A perceptron is code that models a single biological neuron. Perceptrons were the predecessor to neural networks — a neural network is a collection of interconnected perceptrons."](https://jamesmccaffrey.wordpress.com/2013/04/17/classification-using-perceptrons/)
+
+
+Let's start to learn the feed forward way of the perceptron concept process in a very intuitiv way. Under the assumption of a solid skill over a c-family programming language we can start.
+
+We start with one input neuron, connected with one weight, this is the dot-product or what I prefer, the netinput.  
+
+```
+float net = 0;
+net += neuron[0] * weight[0]; 
+```
+
+In the case of the MNIST data set, we have 784 input neurons, so we need more neurons, weights and a loop.  
+```
+for (int n = 0; n < 784; n++)
+net += neuron[n] * weight[n]; 
+```
+
+The result is one perceptron. But at least ten classes are needed to make a prediction, we need a new loop and output neurons.
+This leads to two dimensions, but instead expand the dimensions, we stack the output on top of the input neurons and weights.
+The weights will increase by 784 * 10 = 7840 weights.  
+```
+for (int k = 0; k < 10; k++)
+{
+   float net = 0;
+   for (int n = 0, m = k; n < 784; n++, m += 10)
+      net += neuron[n] * weight[m]; 
+   neuron[784 + k] = net;
+}
+```
+
+This is the usual way to compute one layer and with the softmax for the output this would lead to ordinary logistic regression for the feed forward way.
+Elementary, the goal is to describe our network in one array u = { 784, 10} and with so many hidden layers we want to use. We need a new loop.  
+```
+int[] u = { 784, 10 };
+for (int i = 0, j = u[0]; i < 1; i++)
+   for (int k = 0; k < u[i + 1]; k++, j++)
+   {
+      float net = 0;
+      for (int n = 0, m = k; n < u[i]; n++, m += u[i + 1])
+         net += neuron[n] * weight[m]; 
+      neuron[j] = net;
+   }
+```
+   
+Looks more complicated, but hopefully this makes sense to you despite we have to take one more step to construct our neural network building.
+Take care of the j variable, it is the index for every neuron after the inputs.  
+```
+int[] u = { 784, 10 };
+for (int i = 0, j = u[0], t = 0, w = 0; i < 1; i++)
+{
+   for (int k = 0; k < u[i + 1]; k++, j++)
+   {
+      float net = 0;
+      for (int n = t, m = w + k; n < t + u[i]; n++, m += u[i + 1])
+         net += neuron[n] * weight[m]; 
+      neuron[j] = net;
+   }
+   t += u[i]; // stacks the neurons
+   w += u[i] * u[i + 1]; // stacks the weights
+}
+```
+
+And that's it, if you understand this step, you have what you need to compute the activations, and you can create deep neural networks in one array.
+Let's take a more realistic example what can be used in practice, similar to the NeuralNetworkFeedForwardSoftmax() function in the code.  
+
+```
+int[] u = { 784, 200, 180, 100, 10 }; // <-- that's a more deep neural network
+int layer = u.Length - 1;
+
+for (int i = 0, j = u[0], t = 0, w = 0; i < layer; i++, t += u[i - 1], w += u[i] * u[i - 1])
+   for (int k = 0; k < u[i + 1]; k++, j++)
+   {
+      float net = 0;
+      for (int n = t, m = w + k; n < t + u[i]; n++, m += u[i + 1])
+         net += neuron[n] * weight[m];  
+      neuron[j] = (i != layer - 1 && net < 0) ? 0 : net; // ReLU activation   
+   }
+```
+
+A nice challenge four you could be to take the code of goodgame on line 665 with NeuralNetworkFeedForwardSoftmax() and add the softmax activation to the code above.
+Because the code uses this idea in several forms, this is the most important code part to understand and deal with goodgame on the low level.
+
+To take a connection to all that, it was necessary for me to use my own figure of this abstract concept.
+![WP_20190423_00_35_17_Pro](https://user-images.githubusercontent.com/53048236/61755635-ca3b9180-adb8-11e9-99a6-adfce47950a5.jpg)
+
+</details>
+
+
+
+
+
+
+
+
 </details>
