@@ -189,7 +189,7 @@ Or:
 Core functions:
 
 ---
-![alt text](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/core_functions.png?raw=true)
+![](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/core_functions.png?raw=true)
 
 ---
 
@@ -299,12 +299,12 @@ A nice challenge for you could be to take the code of goodgame on line 665 with 
 Because the code uses this idea in several forms, this is the most important code part to understand and deal with goodgame on the low level.
 
 To take a connection to all that, it was necessary for me to use my own figure of this abstract concept.
-![WP_20190423_00_35_17_Pro](https://user-images.githubusercontent.com/53048236/61755635-ca3b9180-adb8-11e9-99a6-adfce47950a5.jpg)
+![](https://raw.githubusercontent.com/grensen/gif_test/master/Figures/goodgame_one_perceptron_concept_2020.jpg?raw=true)
 
   
   
 There are a lot more steps to understand goodgame in every detail, to explain all this would cost a lot of time, for the development it was better to work just in time.
-Before I start this project, there was a huge question which language should I use, but it was not C++ at the end, because all the learning steps for me seems much harder and uncertain in comparsion to C#. But there is no real requierement to take C# or C++, it is more the understanding and using of all the tools we have.
+Before I was started this project, there was a huge question which language should I use, but it was not C++ at the end, because all the learning steps for me seems much harder and uncertain in comparsion to C#. But there is no real requierement to take C# or C++, it is more the understanding and using of all the tools we have.
 
 </details>
 
