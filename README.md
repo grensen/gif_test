@@ -210,7 +210,7 @@ Build a release version of your goodgame app.
  
 ### The perceptron concept
 
-For the code understanding, it is essentially to understand this concept. It seems the best way to built neural networks and the easiest way to work with them, but it's a heavy painful step to understand all the details to build a network by yourself. Give me a try to make this easy.
+For the code understanding, it is essentially to understand this concept. It seems the best way to built neural networks and the easiest way to work with them, but it's a heavy painful step to understand all the details to build a network by yourself. Give me a chance to make this easy.
 
 For me A (input) + B (network model) = C (prediction) describes in a way my basic understanding of neural networks. it is abstract, but it helps me to keep things simple.
 If a perceptron is unknown to you, take a look here.  
@@ -219,7 +219,7 @@ James D. McCaffrey writes:
 ["A perceptron is code that models a single biological neuron. Perceptrons were the predecessor to neural networks — a neural network is a collection of interconnected perceptrons."](https://jamesmccaffrey.wordpress.com/2013/04/17/classification-using-perceptrons/)
 
 
-Let's start to learn the feed forward way of the perceptron concept process in a very intuitiv way. Under the assumption of a solid skill over a c-family programming language we can start.
+Let's start to learn the feed forward way of the perceptron concept process in a very intuitiv way. Under the assumption of a solid skill over a C-family programming language we can start.
 
 We start with one input neuron, connected with one weight, this is the dot-product or what I prefer, the netinput.  
 
@@ -260,7 +260,6 @@ for (int i = 0, j = u[0]; i < 1; i++)
       neuron[j] = net;
    }
 ```
-   
 Looks more complicated, but hopefully this makes sense to you despite we have to take one more step to construct our neural network building.
 Take care of the j variable, it is the index for every neuron after the inputs.  
 ```
@@ -296,11 +295,16 @@ for (int i = 0, j = u[0], t = 0, w = 0; i < layer; i++, t += u[i - 1], w += u[i]
    }
 ```
 
-A nice challenge four you could be to take the code of goodgame on line 665 with NeuralNetworkFeedForwardSoftmax() and add the softmax activation to the code above.
+A nice challenge for you could be to take the code of goodgame on line 665 with NeuralNetworkFeedForwardSoftmax() and add the softmax activation to the code above.
 Because the code uses this idea in several forms, this is the most important code part to understand and deal with goodgame on the low level.
 
 To take a connection to all that, it was necessary for me to use my own figure of this abstract concept.
 ![WP_20190423_00_35_17_Pro](https://user-images.githubusercontent.com/53048236/61755635-ca3b9180-adb8-11e9-99a6-adfce47950a5.jpg)
+
+  
+  
+There are a lot more steps to understand goodgame in every detail, to explain all this would cost a lot of time, for the development it was better to work just in time.
+Before I start this project, there was a huge question which language should I use, but it was not C++ at the end, because all the learning steps for me seems much harder and uncertain in comparsion to C#. But there is no real requierement to take C# or C++, it is more the understanding and using of all the tools we have.
 
 </details>
 
